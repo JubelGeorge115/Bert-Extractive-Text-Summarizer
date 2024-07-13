@@ -10,18 +10,22 @@ Process
 -• BERT Embeddings: The input text is tokenized and passed through a 
 pre-trained BERT model to obtain contextual embeddings for each 
 word/token in the text. These embeddings capture the semantic 
-meaning and context of each word within the sentence. <br>
+meaning and context of each word within the sentence. 
+<br>
 -• Sentence Embeddings: The contextual embeddings obtained from 
 BERT are aggregated to represent each sentence in the input text. 
 Various aggregation methods can be used, such as averaging or 
-pooling the embeddings of individual tokens within the sentence. 
+pooling the embeddings of individual tokens within the sentence.
+<br>
 -• Clustering with K-Means: The sentence embeddings are then 
 clustered using the K-Means algorithm. K-Means partitions the 
 sentence embeddings into K clusters based on their similarity, where 
 K is the desired number of sentences in the summary. 
+<br>
 -• Sentence Selection: Once the clusters are formed, the centroid of 
 each cluster is computed. The sentences closest to each centroid are 
 selected as representatives of their respective clusters and included in 
 the summary. 
+<br>
 -• Summary Generation: The selected sentences from each cluster are 
 concatenated to form the final summary.

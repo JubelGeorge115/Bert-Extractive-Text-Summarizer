@@ -7,6 +7,7 @@ designed to process sequential input data.
 
 
 Process 
+<br>
 -• BERT Embeddings: The input text is tokenized and passed through a 
 pre-trained BERT model to obtain contextual embeddings for each 
 word/token in the text. These embeddings capture the semantic 

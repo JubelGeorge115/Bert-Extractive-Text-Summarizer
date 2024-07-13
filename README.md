@@ -10,7 +10,7 @@ Process
 -• BERT Embeddings: The input text is tokenized and passed through a 
 pre-trained BERT model to obtain contextual embeddings for each 
 word/token in the text. These embeddings capture the semantic 
-meaning and context of each word within the sentence. 
+meaning and context of each word within the sentence. <br>
 -• Sentence Embeddings: The contextual embeddings obtained from 
 BERT are aggregated to represent each sentence in the input text. 
 Various aggregation methods can be used, such as averaging or 
